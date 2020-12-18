@@ -73,3 +73,5 @@ const CustomInput = React.forwardRef((props, ref) => (
   <Input ref={ref} value={props.value} onChange={props.onChange} />
 ));
 ```
+
+动态表单上使用自定义表单组件  设置了ref也不生效
